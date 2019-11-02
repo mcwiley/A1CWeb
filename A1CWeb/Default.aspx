@@ -2,19 +2,28 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <asp:Image ID="Image1" runat="server"  /> 
-        <h1>A1CWeb</h1>
-        <p class="lead">A free tool to assist you in managing your Blood Sugar levels.</p>
+    <div class="row">
+
+        <div class="col-md-12">
+             <asp:Image ID="Image2" runat="server"  ImageUrl="~/Content/A1Cheart.ico" ImageAlign="Left" Width="100" />
+             <div style="font-family: 'Times New Roman', Times, serif; font-size: 36pt; font-style: italic; font-weight: bold;">
+                 <asp:Label ID="Label2" runat="server"  Text="A1CWeb"></asp:Label>
+             </div>
+            <p class="lead">A free tool to assist you in managing your Blood Sugar levels.</p>
+        </div>
+
     </div>
 
     <div class="row">
-        <div class="col-md-6">
-            <h2>Getting Started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            </p>
-        </div>
-    </div>
 
+        <div class="col-sm-4">.col-sm-4>
+            .col-sm-4<br />
+        </div>
+
+        <div class="col-sm-8">.col-sm-8>
+            .col-sm-8<br />
+        </div>
+
+    </div>
+    
 </asp:Content>
